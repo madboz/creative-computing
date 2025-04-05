@@ -1,0 +1,42 @@
+exampleData = {  
+   "coord":{  
+      "lon":-122.33,
+      "lat":47.61
+   },
+   "weather":[  
+      {  
+         "id":311,
+         "main":"rain",
+         "description":"light drizzle rain",
+         "icon":"09d"
+      }
+   ],
+   "base":"cmc stations",
+   "main":{  
+      "temp":50.02,
+      "pressure":1002,
+      "humidity":76,
+      "temp_min":48.2,
+      "temp_max":51.8
+   },
+   "wind":{  
+      "speed":13.39,
+      "deg":200,
+      "gust":12.9
+   },
+   "clouds":{  
+      "all":90
+   },
+   "dt":1449668100,
+   "sys":{  
+      "type":1,
+      "id":2949,
+      "message":0.0052,
+      "country":"US",
+      "sunrise":1449675960,
+      "sunset":1449706663
+   },
+   "id":5809844,
+   "name":"Seattle",
+   "cod":200
+}

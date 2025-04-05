@@ -1,0 +1,335 @@
+body{
+	font-family: Berthold Akzidenz Grotesk BE;
+	color: black;
+	letter-spacing: 2pt;
+	font-size: 40pt;
+	background-color: white;
+	overflow: hidden;
+}
+
+p, .things-to-hide {
+	display: none;
+}
+
+#container {
+	position: absolute;
+	width: 600px;
+	height: 200px;
+	margin-top: -100px;
+    margin-left: -300px;
+	top: 30%;
+	left: 50%;
+	z-index: 900;
+
+}
+
+#container-text {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-top: -100px;
+    margin-left: -100px;
+	top: 30%;
+	left: 50%;
+	z-index: 900;
+
+}
+
+#one-dollar-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#one-dollar-flip-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#one-dollar-vertical-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#one-dollar-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#one-dollar-flip-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#one-dollar-vertical-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#ten-dollar-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#ten-dollar-flip-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#ten-dollar-vertical-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#ten-dollar-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#ten-dollar-flip-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#ten-dollar-vertical-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#fifty-dollar-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#fifty-dollar-flip-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#fifty-dollar-vertical-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#fifty-dollar-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#fifty-dollar-flip-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#fifty-dollar-vertical-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#hundred-dollar-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#hundred-dollar-flip-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#hundred-dollar-vertical-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#hundred-dollar-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#hundred-dollar-flip-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#hundred-dollar-vertical-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+
+}
+
+#coins-1 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#coins-2 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#coins-3 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#coins-4 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#coins-5 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#coins-6 {
+	position: relative;
+	width: 12vw;
+	z-index: 950;
+}
+
+#diamond-1 {
+	position: relative;
+	width: 8vw;
+	z-index: 950;
+
+}
+
+#diamond-2 {
+	position: relative;
+	width: 10vw;
+	z-index: 950;
+
+}
+
+#diamond-3 {
+	position: relative;
+	width: 18vw;
+	z-index: 950;
+
+}
+
+#diamond-4 {
+	position: relative;
+	width: 20vw;
+	z-index: 950;
+
+}
+
+#diamond-5 {
+	position: relative;
+	width: 6vw;
+	z-index: 950;
+
+}
+
+#diamond-6 {
+	position: relative;
+	width: 10vw;
+	z-index: 950;
+
+}
+
+#empty-wallet {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-top: -100px;
+    margin-left: -100px;
+	top: 60%;
+	left: 50%;
+	z-index: 950;
+
+}
+
+.falling-animation {
+	position: absolute;
+	top: -300px;
+	animation: falling 2.5s linear infinite;
+}
+
+.delay-1 {
+	animation-delay: 1s;
+}
+.delay-2 {
+	animation-delay: 2s;
+}
+.delay-3 {
+	animation-delay: 3s;
+}
+
+.delay-4 {
+	animation-delay: 1.5s;
+}
+
+.delay-5 {
+	animation-delay: 2.5s;
+}
+
+@keyframes falling {
+	0% {
+		top: -300px;
+	}
+	100% {
+		top: 800px;
+	}
+}
+
+.pulsing-animation {
+	animation: pulse 0.5s linear infinite;
+}
+
+@keyframes pulse {
+	0% { 
+		background-color: white;
+	}
+	50% {
+		background-color: black;
+	}
+	100% {
+		background-color: white;
+	}
+}
